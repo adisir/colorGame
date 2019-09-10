@@ -26,13 +26,13 @@ function setupSquares(){
 			//compare color to picked color
 			console.log(clickedColor, pickedColor);
 			if(clickedColor === pickedColor){
-				messageDisplay.textContent = "Correct!!!";
+				messageDisplay.textContent = "Correct!";
 				changeColors(clickedColor);
 				h1.style.backgroundColor = clickedColor;
 				resetButton.textContent= "Play Again?";
 			}else{
 				this.style.background = "#232323";
-				messageDisplay.textContent = "try again";
+				messageDisplay.textContent = "Try Again";
 			}
 			});
 	}
